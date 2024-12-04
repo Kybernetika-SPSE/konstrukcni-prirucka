@@ -1,4 +1,4 @@
 - [Read Me](README)
-- [Užitečné odkazy](Užitečné-odkazy)
+- [Užitečné odkazy](pages/Užitečné-odkazy)
 - [Example Second Page](second-page)
 -
