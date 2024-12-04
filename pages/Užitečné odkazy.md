@@ -1,0 +1,13 @@
+# Užitečné odkazy
+- ## Nějaká ta četba
+	- [Hradla, volty, jednočipy](https://maly.gitbook.io/hradla-volty-jednocipy) - skvělá kniha pro začínající konstruktéry
+	- [Názorná elektrotechnika](https://www.youtube.com/@nazornaelektrotechnika) - Kurz základů elektrotechniky od samouka pro samouky.
+	- [Get started with MicroPython on Raspberry Pi Pico](https://hackspace.raspberrypi.com/books/micropython-pico) (EN) - Pro úplné začátky
+- ## Chtěl bych si něco zkusit...
+	- [Wokwi - World's most advanced ESP32 Simulator](https://wokwi.com/) - Arduino, ESP32, STM32 i Raspberry Pi Pico. Wiring i MicroPython
+	- [Tinkercad - Vytvářejte 3D digitální návrhy v online CAD prostředí](https://www.tinkercad.com/) - CAD, Simulace elektroniky a mnohem více
+	- [Falstad](https://www.falstad.com/circuit/circuitjs.html) - Potřebujete rychlou simulaci nějakého obvodu?
+- ## Potřebuji si vyrobit PCB
+	- [KiCad EDA - Schematic Capture & PCB Design Software](https://www.kicad.org/) - Pro návrh PCB, schémata i simulace
+	- [EasyEDA - Online PCB design & circuit simulator](https://easyeda.com/)
+-
