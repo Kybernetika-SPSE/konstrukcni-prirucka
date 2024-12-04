@@ -44,6 +44,15 @@
         smartypants: true,
         externalLinkTarget: '_blank',
         linkify: true,
+        renderer: {
+            link: function(href, title, text) {
+            if (href.startsWith('[[') && href.endsWith(']]')) {
+              const link = href.slice(2, -2);
+              return `<a href="${link}">${text}</a>`;
+            }
+            return `<a href="${href}" title="${title}">${text}</a>`;
+            }
+        }
       },
       repo: 'Kybernetika-SPSE/kunstrukcni-prirucka',
     };
