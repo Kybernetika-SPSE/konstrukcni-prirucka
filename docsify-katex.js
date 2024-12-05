@@ -42,7 +42,7 @@
             return e
         }
         ;
-        return i = "function" == typeof e ? originMarkdown.apply(this, n, t).defaults : a(e, {
+        return i = "function" == typeof e ? e.apply(this, n, t).defaults : a(e, {
             renderer: a(t, e.renderer)
         }),
         r.setOptions(i),
