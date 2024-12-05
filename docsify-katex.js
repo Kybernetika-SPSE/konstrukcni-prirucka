@@ -66,7 +66,7 @@
       let opts = oldMarkdown || {};
   
       if (isFn(oldMarkdown)) {
-        opts = oldMarkdown.apply(
+        opts = originMarked.apply(
           this, // make it right: return this.origin.code(src);
           originMarked,
           originRenderer
