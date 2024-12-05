@@ -44,7 +44,16 @@
         smartypants: true,
         externalLinkTarget: '_blank',
         linkify: true,
-        gfmWiki: true
+        gfmWiki: true,
+        // Math Plugin Configuration
+        math: {
+          type: 'mathjax',
+          version: 3,
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true,
+          },
       },
       repo: 'Kybernetika-SPSE',
     };
