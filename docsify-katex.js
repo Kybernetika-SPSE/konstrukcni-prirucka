@@ -1,6 +1,7 @@
 (function () {
     let oldMarkdown = window.$docsify.markdown;
     let newMarked = marked.parse; // version above 2.1.0
+    let originMarkdown = window.$docsify.markdown;
     function newMarkdown(originMarked, originRenderer) {
       // in docsify.js: `window.marked = marked;`
       // this will overwrite the marked
@@ -66,7 +67,7 @@
       let opts = oldMarkdown || {};
   
       if (isFn(oldMarkdown)) {
-        opts = originMarked.apply(
+        opts = originMarkdown.apply(
           this, // make it right: return this.origin.code(src);
           originMarked,
           originRenderer
