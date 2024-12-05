@@ -31,8 +31,8 @@
       // Docsify Configuration (see https://docsify.js.org/#/configuration)
       window.$docsify = {
         name: "Konstrukční příručka",
-        basePath: "https://kybernetika-spse.github.io/konstrukcni-prirucka/pages",
-        homepage: "https://kybernetika-spse.github.io/konstrukcni-prirucka/README.md",
+        // basePath: "https://kybernetika-spse.github.io/konstrukcni-prirucka/pages",
+        // homepage: "https://kybernetika-spse.github.io/konstrukcni-prirucka/README.md",
 
         // Sidebar Configuration
         auto2top: true,
@@ -42,10 +42,12 @@
         // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
         subMaxLevel: 3,
         mergeNavbar: true,
-        notFoundPage: "https://kybernetika-spse.github.io/konstrukcni-prirucka/_404.md",
+        notFoundPage: true,
+        // notFoundPage: "https://kybernetika-spse.github.io/konstrukcni-prirucka/_404.md",
         requestHeaders: {
           'cache-control': 'max-age=600',
         },
+        relativePath: false,
 
         // Search Plugin Configuration
         search: {
