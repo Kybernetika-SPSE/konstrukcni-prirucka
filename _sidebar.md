@@ -1,5 +1,0 @@
-# Main sidebar
-- [Read Me](README)
-- [Užitečné odkazy](pages/Užitečné-odkazy)
-- [Example Second Page](second-page)
--
