@@ -1,18 +1,18 @@
-- Vedení projektu
+### Vedení projektu
 	- [Git](git)
 	- [Řízení a přehled](project_management)
 	- [Dokumentace](docs)
-- Moduly a ext. periferie
+- ### Moduly a ext. periferie
 	- [Senzorika](sensors)
 	- [Úpravy I/O](io_expansion)
-- Napájení a rozhraní
+- ### Napájení a rozhraní
 	- [Konektory](connectors)
 	- [Napájení](pwr_mngmt)
-- Vývojové desky
+- ### Vývojové desky
 	- [GPIO](gpio)
 	- [Komunikace](comms)
 	- [Čítače, časovače](timers_counters)
 	- [Misc.](misc)
-- Dodatky
+- ### Dodatky
 	- [Užitečné odkazy](helpful_links)
 	- [Zdroje](sources)
