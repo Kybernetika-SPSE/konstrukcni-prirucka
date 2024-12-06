@@ -1,47 +1,17 @@
+- Vedení projektu
+    - [Git](git)
+    - [Řízení a přehled](project_management)
+    - [Dokumentace](docs)
 - Moduly a ext. periferie
-	- Senzory
-		- Teplota, vlhkost, tlak (barom.)
-			- [Dallas DS18B20](ds18b20)
-			- [Aosong DHT 11/22](dht)
-			- [Bosch BME280](bme280)
-		- Kvalita ovzduší (TVOC)
-			- [AGS10](ags10)
-		- Světlo a barvy
-			- [VEML 7700](veml7700)
-		- IMU (zrychlení, ...)
-			- [MPU6050](mpu6050)
-		- Vzdálenost
-			- [HC-SR04](hcsr04)
-			- [VL53L0X](vl53l0x)
-		- Misc.
-			- [Infračerv.](ir_sens)
-			- [Pnutí, ohyb](tensometers)
-			- [Váha, tlak](weight_sens)
-	- Zesílené výstupy
-		- Pro spínání větších zátěží
-			- [Tranzistorové pole](trans_array)
-		- Pro řízení motorů
-			- [H-můstky](h_bridges)
-			- [Budiče krokových motorů](stepper_drivers)
+	- [Senzorika](sensors)
+	- [Úpravy I/O](io_expansion)
 - Napájení a rozhraní
-	- Konektory
-	- [Jak správně na USB-C](usb-c)
-	- [Piny, konektory](connectors)
-	- Napájení
-		- [DC/DC měniče](dc-dc)
-		- [Baterie](battery)
-		- [Jištění](fuses)
+	- [Konektory](connectors)
+    - [Napájení](pwr_mngmt)
 - Vývojové desky
-	- GPIO
-		- [Digitální I/O](digital_io)
-		- [Analogové I/O](analog_io)
-	- Komunikace
-		- [I2C, SPI apod.](serial_comm)
-		- [WiFi, BT a rádio](rf_comm)
-		- [IR přenos](ir_comm)
-		- [MQTT v3](mqtt)
-	- Misc.
-		- [Multitasking](multitasking)
+	- [GPIO](gpio)
+	- [Komunikace](comms)
+	- [Misc.](misc)
 - Dodatky
 	- [Užitečné odkazy](helpful_links)
 	- [Zdroje](sources)
