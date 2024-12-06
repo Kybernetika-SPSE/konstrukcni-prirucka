@@ -1,47 +1,47 @@
 - Moduly a ext. periferie
 	- Senzory
 		- Teplota, vlhkost, tlak (barom.)
-			- [Dallas DS18B20](pages/ds18b20)
-			- [Aosong DHT 11/22](pages/dht)
-			- [Bosch BME280](pages/bme280)
+			- [Dallas DS18B20](ds18b20)
+			- [Aosong DHT 11/22](dht)
+			- [Bosch BME280](bme280)
 		- Kvalita ovzduší (TVOC)
-			- [AGS10](pages/ags10)
+			- [AGS10](ags10)
 		- Světlo a barvy
-			- [VEML 7700](pages/veml7700)
+			- [VEML 7700](veml7700)
 		- IMU (zrychlení, ...)
-			- [MPU6050](pages/mpu6050)
+			- [MPU6050](mpu6050)
 		- Vzdálenost
-			- [HC-SR04](pages/hcsr04)
-			- [VL53L0X](pages/vl53l0x)
+			- [HC-SR04](hcsr04)
+			- [VL53L0X](vl53l0x)
 		- Misc.
-			- [Infračerv.](pages/ir_sens)
-			- [Pnutí, ohyb](pages/tensometers)
-			- [Váha, tlak](pages/weight_sens)
+			- [Infračerv.](ir_sens)
+			- [Pnutí, ohyb](tensometers)
+			- [Váha, tlak](weight_sens)
 	- Zesílené výstupy
 		- Pro spínání větších zátěží
-			- [Tranzistorové pole](pages/trans_array)
+			- [Tranzistorové pole](trans_array)
 		- Pro řízení motorů
-			- [H-můstky](pages/h_bridges)
-			- [Budiče krokových motorů](pages/stepper_drivers)
+			- [H-můstky](h_bridges)
+			- [Budiče krokových motorů](stepper_drivers)
 - Napájení a rozhraní
 	- Konektory
-	- [Jak správně na USB-C](pages/usb-c)
-	- [Piny, konektory](pages/connectors)
+	- [Jak správně na USB-C](usb-c)
+	- [Piny, konektory](connectors)
 	- Napájení
-		- [DC/DC měniče](pages/dc-dc)
-		- [Baterie](pages/battery)
-		- [Jištění](pages/fuses)
+		- [DC/DC měniče](dc-dc)
+		- [Baterie](battery)
+		- [Jištění](fuses)
 - Vývojové desky
 	- GPIO
-		- [Digitální I/O](pages/digital_io)
-		- [Analogové I/O](pages/analog_io)
+		- [Digitální I/O](digital_io)
+		- [Analogové I/O](analog_io)
 	- Komunikace
-		- [I2C, SPI apod.](pages/serial_comm)
-		- [WiFi, BT a rádio](pages/rf_comm)
-		- [IR přenos](pages/ir_comm)
-		- [MQTT v3](pages/mqtt)
+		- [I2C, SPI apod.](serial_comm)
+		- [WiFi, BT a rádio](rf_comm)
+		- [IR přenos](ir_comm)
+		- [MQTT v3](mqtt)
 	- Misc.
-		- [Multitasking](pages/multitasking)
+		- [Multitasking](multitasking)
 - Dodatky
-	- [Užitečné odkazy](pages/helpful_links)
-	- [Zdroje](pages/sources)
+	- [Užitečné odkazy](helpful_links)
+	- [Zdroje](sources)
