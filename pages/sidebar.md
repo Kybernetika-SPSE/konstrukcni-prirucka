@@ -8,7 +8,7 @@
 - Napájení a rozhraní
 	- [Konektory](connectors)
 	- [Napájení](pwr_mngmt)
-- Vývojové desky
+- MCU a $\mu$Python
 	- [GPIO](gpio)
 	- [Komunikace](comms)
 	- [Čítače, časovače](timers_counters)
