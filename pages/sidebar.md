@@ -8,7 +8,7 @@
 - Napájení a rozhraní
 	- [Konektory](connectors)
 	- [Napájení](pwr_mngmt)
-- MCU a $\mu$Python
+- MCU a μPython
 	- [GPIO](gpio)
 	- [Komunikace](comms)
 	- [Čítače, časovače](timers_counters)
