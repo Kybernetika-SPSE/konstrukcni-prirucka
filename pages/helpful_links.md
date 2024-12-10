@@ -10,4 +10,5 @@
 - ## Potřebuji si vyrobit PCB
 	- [KiCad EDA - Schematic Capture & PCB Design Software](https://www.kicad.org/) - Pro návrh PCB, schémata i simulace
 	- [EasyEDA - Online PCB design & circuit simulator](https://easyeda.com/)
--
+- ## Mapování pinů
+	- Raspberry Pi Pico - [Raspberry Pi Pico GPIO Pinout](https://pico.pinout.xyz/)

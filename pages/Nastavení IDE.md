@@ -1,0 +1,18 @@
+# Nastavení IDE/editoru
+- ## Thonny
+	- ### Potřebné programy
+		- [Thonny, Python IDE for beginners](https://thonny.org/)
+	- ### Zprovoznění
+		-
+- ## Visual Studio Code
+	- ### Potřebné programy
+		- [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+		- [Welcome to Python.org](https://www.python.org/)
+	- ### Zprovoznění
+		-
+- ## PyCharm
+	- ### Potřebné programy
+		- [PyCharm: the Python IDE for data science and web development](https://www.jetbrains.com/pycharm/)
+		- [Welcome to Python.org](https://www.python.org/)
+	- ### Zprovoznění
+		-
