@@ -12,77 +12,88 @@
     <meta name="description" content="Malá přiručka pro začínající techniky" />
 
     <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-    
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: dark)"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: light)"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
   </head>
 
   <body>
     <div id="app"></div>
 
     <script>
-      // Docsify Configuration (see https://docsify.js.org/#/configuration)
-      window.$docsify = {
-        name: "Konstrukční příručka",
-        basePath: "https://kybernetika-spse.github.io/konstrukcni-prirucka/pages",
-        homepage: "home.md",
-        
-        // Sidebar Configuration
-        auto2top: true,
-        loadSidebar: "sidebar.md",
-        loadNavbar: false,
-        maxLevel: 0,
-        // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
-        subMaxLevel: 3,
-        mergeNavbar: true,
-        notFoundPage: "404.md",
-        // notFoundPage: "https://kybernetika-spse.github.io/konstrukcni-prirucka/_404.md",
-        requestHeaders: {
-          'cache-control': 'max-age=0',
-        },
-        relativePath: false,
+        // Docsify Configuration (see https://docsify.js.org/#/configuration)
+        window.$docsify = {
+          name: "Konstrukční příručka",
+          basePath: "https://kybernetika-spse.github.io/konstrukcni-prirucka/pages",
+          homepage: "home.md",
 
-        // Search Plugin Configuration
-        search: {
-          placeholder: "Potřebuji najít...",
-          noData: "Nenalezeno.",
-          paths: "auto",
-          maxAge: 600, //86400000, // 1 day
-          // Headline depth, 1 - 6
-          depth: 2,
-          namespace: 'konstrukcni-prirucka',
-        },
-        markdown: {
-          smartypants: true,
-          externalLinkTarget: "_blank",
-          linkify: true,
-        },
-        repo: "Kybernetika-SPSE",
-        latex: {
-          inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
-          displayMath  : [['$$', '$$']],               // default
-        },
-      };
+          // Sidebar Configuration
+          auto2top: true,
+          loadSidebar: "sidebar.md",
+          loadNavbar: false,
+          maxLevel: 0,
+          // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
+          subMaxLevel: 3,
+          mergeNavbar: true,
+          notFoundPage: "404.md",
+          // notFoundPage: "https://kybernetika-spse.github.io/konstrukcni-prirucka/_404.md",
+          requestHeaders: {
+            'cache-control': 'max-age=0',
+          },
+          relativePath: false,
+
+          routerMode: 'history',
+          alias: {
+            '../assets/(.*)': '/assets/$1'
+          },
+          // Search Plugin Configuration
+          search: {
+            placeholder: "Potřebuji najít...",
+            noData: "Nenalezeno.",
+            paths: "auto",
+            maxAge: 600, //86400000, // 1 day
+            // Headline depth, 1 - 6
+            depth: 2,
+            namespace: 'konstrukcni-prirucka',
+          },
+          markdown: {
+            smartypants: true,
+            externalLinkTarget: "_blank",
+            linkify: true,
+          },
+          repo: "Kybernetika-SPSE",
+          latex: {
+            inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
+            displayMath  : [['$$', '$$']],               // default
+          },
+        };
     </script>
 
-   <!-- Required -->
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <!-- Required -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
-   <!-- Plugins -->
+    <!-- Plugins -->
 
-   <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
 
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
 
-   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 
-   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-latex.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-latex.min.js"></script>
 
-   <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
-   <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-   <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+    <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
   </body>
 </html>
