@@ -27,7 +27,9 @@
         basePath: "https://kybernetika-spse.github.io/konstrukcni-prirucka/pages",
         homepage: "home.md",
         alias: {
-          "../assets/(.*)": "https://kybernetika-spse.github.io/konstrukcni-prirucka/assets/$1?nothing=",
+          "../assets/(.*)": function(path) {
+            return path.endsWith('.pdf') ? "https://kybernetika-spse.github.io/konstrukcni-prirucka/assets/" + path : "https://kybernetika-spse.github.io/konstrukcni-prirucka/assets/" + path + ".md";
+          },
         },
         
         // Sidebar Configuration
