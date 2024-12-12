@@ -26,10 +26,9 @@
         name: "Konstrukční příručka",
         basePath: "https://kybernetika-spse.github.io/konstrukcni-prirucka/pages",
         homepage: "home.md",
-        
         alias: {
           "../assets/(.*)": function(path) {
-            return "/assets/" + path + "?nothing=";
+            return "https://kybernetika-spse.github.io/konstrukcni-prirucka/assets/" + path;
           },
         },
         
