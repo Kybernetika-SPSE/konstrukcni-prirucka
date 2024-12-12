@@ -28,7 +28,7 @@
         homepage: "home.md",
         alias: {
           "../assets/(.*)": function(path) {
-            return path.endsWith('.pdf') ? "https://kybernetika-spse.github.io/konstrukcni-prirucka/assets/" + path : "https://kybernetika-spse.github.io/konstrukcni-prirucka/assets/" + path + ".md";
+            return "/assets/" + path + "?=nothing=";
           },
         },
         
