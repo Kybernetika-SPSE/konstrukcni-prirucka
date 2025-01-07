@@ -27,14 +27,14 @@
 	- ### Jednoduchý příklad
 		- Napíšeme si program který při stisku tlačítka přepne stav interní LED
 		- ```python
-		  from machine import Pin				# Import GPIO functions
+		  from machine import Pin	            # Import GPIO functions
 		  
-		  led = Pin(25, Pin.OUT)				# Attach led to GP25
-		  btn = Pin(2, Pin.IN, Pin.PULL_UP)	# Attach btn to GP2, use pull-up (btn connected between pin 2 and ground)
+		  led = Pin(25, Pin.OUT)              # Attach led to GP25
+		  btn = Pin(2, Pin.IN, Pin.PULL_UP)   # Attach btn to GP2, use pull-up (btn connected between pin 2 and ground)
 		  
 		  while True:
-		    if btn.value() == 0:					# If button is pressed, toggle the led
-		      led.toggle()						# Warning - toggle() works only on Pico boards!
-		      while btn.value() == 0:				# Wait until button is released
+		    if btn.value() == 0:              # If button is pressed, toggle the led
+		      led.toggle()                    # Warning - toggle() works only on Pico boards!
+		      while btn.value() == 0:         # Wait until button is released
 		        pass
 		  ```
