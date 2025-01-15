@@ -1,0 +1,2 @@
+# SaTea - malý meteorologický satelit
+- > Více informací naleznete v repozitáři projektu [Kybernetika-SPSE/KVA-SaTea: Model malé vesmírné sondy pro výuku](https://github.com/Kybernetika-SPSE/KVA-SaTea)

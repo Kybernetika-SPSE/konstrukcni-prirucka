@@ -16,3 +16,4 @@
 - Dodatky
 	- [Užitečné odkazy](helpful_links)
 	- [Zdroje](sources)
+	- [Výukové desky](custom_boards)
