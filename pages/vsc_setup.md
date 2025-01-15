@@ -18,7 +18,7 @@
 	  logseq.order-list-type:: number
 - ## Časté dotazy
 	- ### Jak si otevřu terminál desky?
-		- `Terminal` > `New Terminal`. Pak vpravo níže `+` a `MicroPico VREPL`
+		- `Terminal` > `New Terminal`. Pak vpravo níže rozb. seznam u tlačítka `+` a `MicroPico vREPL`
 	- ### Spuštění kódu?
 		- Setkáte se zde se dvěma tlačítky "play". Jedno v pravém horním rohu, to spouští skripty na **PC** (tj. v Pythonu) To druhé, cca uprostřed nalevo **DOLE** označené nápisem `Run` spustí skript na desce.
 	- ### Nahrání na desku
