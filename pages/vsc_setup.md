@@ -21,3 +21,7 @@
 		- `Terminal` > `New Terminal`. Pak vpravo níže `+` a `MicroPico VREPL`
 	- ### Spuštění kódu?
 		- Setkáte se zde se dvěma tlačítky "play". Jedno v pravém horním rohu, to spouští skripty na **PC** (tj. v Pythonu) To druhé, cca uprostřed nalevo **DOLE** označené nápisem `Run` spustí skript na desce.
+	- ### Nahrání na desku
+		- Aby kód zůstal na desce, je třeba jej na ni nahrát. Pro použití vlastních knihoven je to nezbytné. Klikněte do části s projektovými soubory a dejte Upload project to Pico`
+		- Pokud chcete nahrát jen jeden soubor, klikněte na něj pravým a dejte `Upload file to Pico`
+		- Také můžete použít tlačítko `Toggle Mpy FS` (Spodní lišta uprostřed). Objeví se vám další složka obsahující soubory přímo na desce, kam stačí knihovny zkopírovat

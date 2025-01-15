@@ -1,2 +1,12 @@
 # SaTea - malý meteorologický satelit
+- Projekt SaTea je cílen primárně na začínající bastlíře a zaměřuje se na jednoduchost stavby a pochopení základů prototypování.
+- ## I/O a nosný plošný spoj
+	- Nosná PCB vyvádí na každé straně ("křídle") dvě I2C a UART linky a jednu SPI. Také je zde přítomen jeden analogový vstup
+	- ### Orientace na PCB (pohled ze strany součástek, sol. panely dolů)
+		- Celá deska je navržena tak, aby bylo snadné se na ní orientovat. Je rozdělena na 3 části - levé a pravé křídlo a spodní (napájecí) část
+		- Na každém křídle je přítomen vstup napájení ze solárních panelů a dva nastavitelné **napájecí výstupy** za pomoci zkratspojek `JPx`. Ty jsou rovnou propojeny pro připojení výstupu na pin `3V3`. Při přebroušení cesty plošky 1 a 2 (krajní a středové) na `JPx` lze výstup odpojit a při proletování plošek 3 a 2 připojíte výstup na pin `VIN`, tedy přímé napájení z baterie a solárních panelů
+		- **Vstupní a výstupní piny** jsou číslovány zleva doprava a z vrchu dolů. Piny na **levém** křídle jsou tedy označeny **A** a na **pravém** **B**. Na obou jsou číslovány od shora od 0 do 7, tj. horní je A0 (vlevo) / B0 (vpravo) a spodní A7/B7. Pro použití tohoto označení je potřeba použít příslušnou knihovnu [space_probe.py](https://github.com/Kybernetika-SPSE/KVA-SaTea/blob/main/SW/lib/space_probe.py)
+- ## Knihovna pro řízení
+	- Satelit využívá pro jednoduchost jiné číslování vývodů (jak již bylo řečeno výše) a má tak vlastní knihovnu s přiřazením příslušných pinů. Můžete si ji stáhnout z repozitáře projektu: [space_probe.py](https://github.com/Kybernetika-SPSE/KVA-SaTea/blob/main/SW/lib/space_probe.py)
+	- **Instalace**: Přidejte ji do svého projektu (do složky `lib`) a nahrajte projekt na desku.
 - > Více informací naleznete v repozitáři projektu [Kybernetika-SPSE/KVA-SaTea: Model malé vesmírné sondy pro výuku](https://github.com/Kybernetika-SPSE/KVA-SaTea)
