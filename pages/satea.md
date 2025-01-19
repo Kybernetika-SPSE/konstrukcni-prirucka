@@ -22,7 +22,7 @@
 	  import time
 	  import network
 	  
-	  wifis = [["D31-lab", "IoT.SPSE.lab22"], ["hak203", "bublina203"]]
+	  wifis = [["ssid1","pass1"],["ssid2","pass2"]]
 	  
 	  led = StatusLight()
 	  battery = Battery(360) # 360mAh battery
