@@ -87,8 +87,9 @@
   except OSError as e:
     reconnect()
   while True:
-        client.publish(topic_pub, topic_msg)
-        time.sleep(3)
+    client.check_msg()
+    client.publish(topic_pub, topic_msg)
+    time.sleep(3)
   ```
 - ### Důležité stáhnut potřebný mqtt modul pomocí mip
   ```python

@@ -1,4 +1,6 @@
 # Užitečné odkazy
+- ## Dokumentace μPythonu
+	- [Overview — MicroPython latest documentation](https://docs.micropython.org/en/latest/index.html)
 - ## Nějaká ta četba
 	- [Hradla, volty, jednočipy](https://maly.gitbook.io/hradla-volty-jednocipy) - skvělá kniha pro začínající konstruktéry
 	- [Názorná elektrotechnika](https://www.youtube.com/@nazornaelektrotechnika) - Kurz základů elektrotechniky od samouka pro samouky.
@@ -10,5 +12,6 @@
 - ## Potřebuji si vyrobit PCB
 	- [KiCad EDA - Schematic Capture & PCB Design Software](https://www.kicad.org/) - Pro návrh PCB, schémata i simulace
 	- [EasyEDA - Online PCB design & circuit simulator](https://easyeda.com/)
+	- [Fritzing](https://fritzing.org/) - pro úplné neznalce
 - ## Mapování pinů
 	- Raspberry Pi Pico - [Raspberry Pi Pico GPIO Pinout](https://pico.pinout.xyz/)
