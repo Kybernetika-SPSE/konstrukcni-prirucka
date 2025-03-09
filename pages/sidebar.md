@@ -8,6 +8,7 @@
 - Napájení a rozhraní
 	- [Konektory](connectors)
 	- [Napájení](pwr_mngmt)
+	- [Vyčítání a vizualizace dat](data_output)
 - MCU a μPython
 	- [GPIO](gpio)
 	- [Komunikace](comms)
@@ -17,3 +18,4 @@
 	- [Užitečné odkazy](helpful_links)
 	- [Zdroje](sources)
 	- [Výukové desky](custom_boards)
+	- [Troubleshooting](troubleshooting)
